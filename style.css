@@ -1,0 +1,196 @@
+h1{
+	position: absolute;
+  	/*Üpadding: 10px;*/
+  	width: 30%;
+    left: 8%;
+    top: 7%;
+    font-size:1em;
+    font-weight:bold;
+
+   
+}
+
+h2{
+	text-align:center;
+	font-size:2em;
+	font-family:arial;
+}
+h3{
+
+	text-align:center;
+  	/*padding: 10px;*/
+  	width: 100%;
+    top: 35px;
+    font-size:2.2em;
+    font-family:"times new roman";
+}
+
+h4{
+
+	text-align:center;
+  	/*padding: 10px;*/
+  	width: 100%;
+    top: 35px;
+    font-size:1.7em;
+    color:#2F4F4F;
+    font-family:arial;
+}
+h5{
+
+	text-align:center;
+  	/*padding: 10px;*/
+  	width: 100%;
+    top: 35px;
+    font-family:verdana;
+    font-size:1.7em;
+    font-style:italic;
+    color:#008080;
+}
+
+
+p{
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+#line{
+	font-weight:bold;
+	text-align:center;
+    font-size:1em;
+}
+
+#logoHeader{
+	position: absolute;
+ 	padding: 10px;
+ 	width: 250px;
+    top: 16px;
+    right: 5%;
+
+}
+
+#logoFooter{
+	padding:15px;
+	width: 200px;
+      
+}
+
+
+header{
+	float: left;
+   	height: 115px;
+   	width: 100%;
+	background:#D8BFD8; 
+
+}
+
+footer{
+	overflow:auto;
+   	height: 175px;
+   	width: 100%;
+	background-color:#D8BFD8;
+	text-align:center;
+
+}
+
+.column{
+	float:left;
+	width:50%;
+	/*padding:2px;
+	margin-left: 75px;*/
+}
+
+.row{
+	
+	clear:both;
+	display:table;
+}
+
+.column1pic{
+	/*float:left;*/
+	width:100%;
+	text-align:center;
+	/*margin-left: 2%;*/
+
+}
+
+figcaption{
+	text-align:center;
+	font-weight:bold;
+	font-size:1.5em;
+
+}
+
+nav{
+
+	height:12em;
+	text-align:right;
+	background-color:#CD5C5C;
+	
+}
+
+a{
+	font-weight:bold;
+	font-size:1.7em;
+	color:white;
+	padding:10px;
+}
+.hero {
+	color:#708090;
+	font-family:"times new roman";
+	font-style:italic;
+	font-size:1em;
+}
+.arrow{
+	font-style:italic;
+	font-family:"times new roman";
+	font-size:1.4em;
+
+}
+
+
+input[type=text], select, textarea {
+ 
+  width: 95%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 2px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  margin-left: 20px;
+  margin-right: 20px;
+  resize: vertical 
+}
+
+.label {
+	margin-left:50px;
+	margin-right:50px;
+}
+
+
+input[type=submit] {
+	
+  	background-color: #4CAF50;
+  	color: white;
+  	padding: 15px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+li{
+	display:inline;
+}

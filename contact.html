@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+	
+		<html lang="en">
+
+<head>
+	<link rel='stylesheet' type='text/css' href='style.css'>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<meta charset="utf-8">
+
+		<title>First CodeReview</title>
+
+</head>
+
+<body>
+	<!--header of the page with the company logo & the title of the page-->
+	<header>
+
+	
+		<h1>Catalin Sacadat-Full Stack Developer</h1>
+
+		<img id="logoHeader"src="logo.png">
+
+
+	
+	</header>
+
+		<!--creates Navigation bar-->
+			<nav>
+			<ul>
+        	<li><a href="index.html">HOME</a></li>
+        	<li><a href="blog.html">BLOG</a></li> 
+        	<li><a href="about_me.html">ABOUT ME</a></li>
+        	<li><a href="contact.html">CONTACT</a></li>
+			</ul>
+    	</nav>
+
+	<section>
+
+		
+			<h2>Contact Form </h2>
+		
+	
+<form action="action_page.php">
+
+    <label class="label" for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label class="label"  for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    <label class="label"  for="e-mail">E-Mail</label>
+    <input type="text" id="e-mail" name="email" placeholder=" Your E-Mail..">
+
+  <label class="label"  for="country">Country</label>
+    <select id="country" name="country">
+      		<option value="austria">Austria</option>
+      		<option valu="germany">Germany</option>
+      		<option value="canada">Canada</option>
+      		<option value="usa">USA</option>
+      		<option value="Australia">Australia</option>
+      		<option value="Sweden">Sweden</option>
+      		<option value="china">China</option>
+
+    </select>
+
+    <label class="label" for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input class="label" type="submit" value="Submit">
+
+  </form>
+</section>
+
+<!--footer with company logo & the name of the Author-->
+	<footer>
+
+		
+	
+		<img id="logoFooter"src="logo.png"width="200px">
+	
+	
+	<p>Catalin Sacadat-CodeFactory 2020</p>
+
+	</footer>
+
+</body>
+</html>
